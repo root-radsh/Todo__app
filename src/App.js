@@ -18,6 +18,8 @@ import { TaskLoader } from "./components/Loader/taskListLoader";
 
 import { onLoadLists } from "./actions/todoListsActions";
 import { onLoadTask } from "./actions/taskListActions";
+import { SideBar, Wrapper, Container } from "./Styles";
+import { GlobalStyle } from "./GlobalStyle";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -54,9 +56,10 @@ function App() {
   };
 
   return (
-    <div className="wrapper">
-      <div className="container">
-        <div className="todo__sidebar">
+    <Wrapper>
+      <GlobalStyle />
+      <Container>
+        <SideBar>
           {!isLoading ? (
             <TodoListLoader />
           ) : (
@@ -85,7 +88,7 @@ function App() {
               </>
             )
           )}
-        </div>
+        </SideBar>
         <Tasks>
           {isLoading ? (
             <Switch>
@@ -106,8 +109,8 @@ function App() {
             <TaskLoader />
           )}
         </Tasks>
-      </div>
-    </div>
+      </Container>
+    </Wrapper>
   );
 }
 
