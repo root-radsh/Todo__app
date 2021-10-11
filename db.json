@@ -1,0 +1,136 @@
+{
+  "lists": [
+    {
+      "id": 1,
+      "name": "Книги",
+      "color": {
+        "id": 2,
+        "hex": "#42B883"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Фильмы и сериалы",
+      "color": {
+        "id": 4,
+        "hex": "#FFBBCC"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Тренировка",
+      "color": {
+        "id": 5,
+        "hex": "#edab04"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Дюна",
+      "completed": true,
+      "listId": 1
+    },
+    {
+      "id": 2,
+      "text": "Мессия Дюны",
+      "completed": true,
+      "listId": 1
+    },
+    {
+      "id": 3,
+      "text": "Норвежский лес",
+      "completed": false,
+      "listId": 1
+    },
+    {
+      "id": 4,
+      "text": "Война и мир",
+      "completed": false,
+      "listId": 1
+    },
+    {
+      "id": 5,
+      "text": "Довод",
+      "completed": true,
+      "listId": 2
+    },
+    {
+      "id": 6,
+      "text": "Убить Билла",
+      "completed": true,
+      "listId": 2
+    },
+    {
+      "id": 7,
+      "text": "Бойцовский клуб",
+      "completed": false,
+      "listId": 2
+    },
+    {
+      "id": 8,
+      "text": "Шан-Чи",
+      "completed": false,
+      "listId": 2
+    },
+    {
+      "id": 9,
+      "text": "Подтягивания прямым хватом",
+      "completed": false,
+      "listId": 3
+    },
+    {
+      "id": 10,
+      "text": "Подтягивания обратным  хватом",
+      "completed": false,
+      "listId": 3
+    },
+    {
+      "text": "Отжимания на брусьях",
+      "listId": 3,
+      "completed": false,
+      "id": 11
+    },
+    {
+      "text": "Подъем ног в висе на турнике",
+      "listId": 3,
+      "completed": false,
+      "id": 12
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "hex": "#676b69"
+    },
+    {
+      "id": 2,
+      "hex": "#42B883"
+    },
+    {
+      "id": 3,
+      "hex": "#64C4ED"
+    },
+    {
+      "id": 4,
+      "hex": "#FFBBCC"
+    },
+    {
+      "id": 5,
+      "hex": "#edab04"
+    },
+    {
+      "id": 6,
+      "hex": "#C355F5"
+    },
+    {
+      "id": 7,
+      "hex": "#09011A"
+    },
+    {
+      "id": 8,
+      "hex": "#c94444"
+    }
+  ]
+}
